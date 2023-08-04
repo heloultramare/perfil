@@ -3,46 +3,34 @@ article, p, div, button {
     margin: 0;
     padding: 0;
     border: 0;
-    text-align: center;
 }
 body {
-    background-color:#cb3d47;
+    background-color: pink;
     background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
 }
 main {
-    background-color:#dd6673;
-    text-align: center;
-    width: 700px;
+    width: 900px;
     padding: 30px 0px;
     margin: 0 auto;
 }
-.sobre-mim {
-    background-color: #ffd6ce;
-    padding: 5px 50px;
-    border-radius: 10px;
-    width: 80%;
-    margin: auto;
-    margin-top: 40px;
-}
-.informações>span {
-    display: block;
-}
 .informações{
-    margin-top: 30px;
+    margin-top: 50px;
     margin-bottom: 30px;
 }
 span {
     font-weight: bold;
-    display: block;
-    margin-top: 10px;
+    margin-top: 30px;
+    font-size: 25px;
+    color: palevioletred;
 }
 p {
     font-weight: 500;
     margin-top: 8px;
 }
 .foto {
-    width: 300px;
-    height: 300px;
+    width: 500px;
+    height: 350px;
     margin: 0 auto;
 }
 .foto img {
@@ -50,9 +38,15 @@ p {
     object-fit: cover;
     border-radius: 10px;
 }
+.botao {
+    text-align: center;
+}
 button {
     padding: 10px 15px;
     border-radius: 8px;
-    background-color: #ffd6ce;
-    border: 2px solid #f7a291;
+    background-color: palevioletred;
+    color: white;
+}
+hr {
+    border: 1px solid palevioletred;
 }
